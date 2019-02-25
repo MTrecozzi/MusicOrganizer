@@ -89,7 +89,8 @@ public class MusicOrganizer
         for (Track track : shuffledList) {
             
             System.out.println("Now Playing: " + track.getTitle());
-            player.playSample(track.getFilename());
+            player.playSong(track.getFilename());
+           
         }
         
         System.out.println("All Tracks Played!");
