@@ -66,6 +66,7 @@ public class MusicOrganizer
      Random rand = new Random();
      
      int totalTracks = tracks.size();  
+     
      int randomIndexNumber = rand.nextInt(totalTracks);
      
      System.out.println("Playing Track #" + (randomIndexNumber + 1) + ": " + tracks.get(randomIndexNumber).getTitle());
